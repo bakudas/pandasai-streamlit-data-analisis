@@ -14,7 +14,7 @@ def main():
     st.sidebar.write("Bem-vindos app de análise de dados com PandasAI")
     st.sidebar.write("")
 
-    llm_key = st.sidebar.text_input("LLM key", value="", type="password")
+    llm_key = st.sidebar.text_input("OpenAI key", value="", type="password")
 
     st.sidebar.write("")
     data_file = st.sidebar.file_uploader("Upload file", type=["csv", "xlsx"])
